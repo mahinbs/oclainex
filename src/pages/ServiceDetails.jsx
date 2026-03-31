@@ -2,8 +2,6 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   FaCode,
-  FaMobileAlt,
-  FaLink,
   FaChartLine,
   FaRobot,
   FaCheck,
@@ -14,13 +12,7 @@ import {
   FaLayerGroup,
   FaLightbulb,
 } from "react-icons/fa";
-import {
-  SiReact,
-  SiNodeDotJs,
-  SiEthereum,
-  SiPython,
-  SiTensorflow,
-} from "react-icons/si";
+import { SiReact, SiEthereum, SiTensorflow } from "react-icons/si";
 import { serviceDetailsList } from "../content/services";
 import { createUrlParam } from "../utils/helper";
 import bannerImg from "../assets/images/service-details.webp";
