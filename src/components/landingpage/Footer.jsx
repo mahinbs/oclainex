@@ -20,7 +20,7 @@ const Footer = () => {
                   loading="lazy"
                   src={logo}
                   alt="logo"
-                  className="w-[13rem] object-contain"
+                  className="w-[8rem] object-contain"
                 />
                 <p className="desc !text-sm">
                   Transcending Limits, <br />

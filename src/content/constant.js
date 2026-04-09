@@ -19,7 +19,7 @@ export { logo };
 
 export const companyDetails = {
   phone: "+91-8929733555",
-  email: "example@abc.com",
+  email: "info@oclainex.com",
   address: "WeWork, Salarpuria Symbiosis, Arekere Village, Bannerghatta Rd, Begur Hobli, Bengaluru, Karnataka",
   facebook: "",
   twitter: "",

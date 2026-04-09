@@ -83,7 +83,7 @@ const ThankYou = () => {
               href="/"
               className="flex items-center gap-2"
             >
-              <img src={logo} alt="logo" className="w-[10rem] sm:w-[12rem]" />
+              <img src={logo} alt="logo" className="w-[3.5rem] sm:w-[4.5rem]" />
             </a>
           </div>
         </div>

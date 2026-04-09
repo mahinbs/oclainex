@@ -7,8 +7,8 @@ import SpinnerContextProvider, {
 } from "./components/website/SpinnerContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import LandingPageLayout from "./components/landingpage/Layout";
 import { Toaster } from "react-hot-toast";
+import FloatingWhatsAppButton from "./components/common/FloatingWhatsAppButton";
 
 const Home = lazy(() => import("./pages/Home"));
 const Layout = lazy(() => import("./components/website/Layout"));
@@ -19,6 +19,9 @@ const Blogs = lazy(() => import("./pages/Blogs"));
 const BlogDetails = lazy(() => import("./pages/BlogDetails"));
 const ContactUs = lazy(() => import("./pages/ContactUs"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
+// const LandingPageLayout = lazy(() =>
+//   import("./components/landingpage/Layout")
+// );
 // const LandingPage = lazy(() => import("./pages/LandingPage"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 
@@ -48,18 +51,15 @@ function App() {
               <Route path="contact-us" element={<ContactUs />} />
             </Route>
             <Route path="/thank-you" element={<ThankYou />} />
-            {/* <Route path="/" element={<LandingPageLayout />}>
-              <Route
-                path="web-development"
-                element={<LandingPage page="web" />}
-              />
-              <Route
-                path="app-development"
-                element={<LandingPage page="app" />}
-              />
+            {/* <Route path="web-development" element={<LandingPageLayout />}>
+              <Route index element={<LandingPage page="web" />} />
+            </Route>
+            <Route path="app-development" element={<LandingPageLayout />}>
+              <Route index element={<LandingPage page="app" />} />
             </Route> */}
           </Routes>
         </Suspense>
+        <FloatingWhatsAppButton />
       </BrowserRouter>
     </SpinnerContextProvider>
   );
