@@ -24,7 +24,7 @@ export const companyDetails = {
   facebook: "https://www.facebook.com/share/18TEf7gxth/",
   twitter: "https://x.com/oclainex",
   instagram: "https://www.instagram.com/oclainex?igsh=MXR4bmViNDhhYWozOA==",
-  linkedin: "\https://www.linkedin.com/company/114434335/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B9mD%2FMsSRTny%2BYsbnTPJjEA%3D%3D",
+  linkedin: "https://www.linkedin.com/company/oclainex/",
 };
 
 export const testimonials = [
