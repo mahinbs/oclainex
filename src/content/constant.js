@@ -21,10 +21,10 @@ export const companyDetails = {
   phone: "+91-8929733555",
   email: "info@oclainex.com",
   address: "WeWork, Salarpuria Symbiosis, Arekere Village, Bannerghatta Rd, Begur Hobli, Bengaluru, Karnataka",
-  facebook: "",
-  twitter: "",
-  instagram: "",
-  linkedin: "",
+  facebook: "https://www.facebook.com/share/18TEf7gxth/",
+  twitter: "https://x.com/oclainex",
+  instagram: "https://www.instagram.com/oclainex?igsh=MXR4bmViNDhhYWozOA==",
+  linkedin: "\https://www.linkedin.com/company/114434335/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B9mD%2FMsSRTny%2BYsbnTPJjEA%3D%3D",
 };
 
 export const testimonials = [
