@@ -55,6 +55,11 @@ const ContactForm = () => {
       .then((res) => {
         if (res.success) {
           toast.success("Form submitted successfully");
+          if (typeof window.gtag === "function") {
+            window.gtag("event", "conversion", {
+              send_to: "AW-18104654054/LQ_DCMr9qaccEOax_LhD",
+            });
+          }
           reset();
           navigate("/thank-you");
         } else {
